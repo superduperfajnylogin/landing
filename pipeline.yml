@@ -10,7 +10,7 @@ trigger:
     - master
 
 jobs:
-  - job: 1
+  - job: a
     displayName: 1
     pool:
       vmImage: 'ubuntu-latest'
@@ -22,7 +22,7 @@ jobs:
         echo Add other tasks to build, test, and deploy your project.
         echo See https://aka.ms/yaml
       displayName: 'Run a multi-line script'
-  - job: 2
+  - job: b
     displayName: 2
     pool:
       vmImage: 'ubuntu-latest'
@@ -35,7 +35,7 @@ jobs:
         echo See https://aka.ms/yaml
       displayName: 'Run a multi-line script'
 
-  - job: 3
+  - job: c
     displayName: 3
     pool:
       vmImage: 'ubuntu-latest'
@@ -47,7 +47,7 @@ jobs:
         echo Add other tasks to build, test, and deploy your project.
         echo See https://aka.ms/yaml
       displayName: 'Run a multi-line script'
-  - job: 4
+  - job: d
     displayName: 4
     pool:
       vmImage: 'ubuntu-latest'
@@ -60,7 +60,7 @@ jobs:
         echo See https://aka.ms/yaml
       displayName: 'Run a multi-line script'
 
-  - job: 5
+  - job: e
     displayName: 5
     pool:
       vmImage: 'ubuntu-latest'
@@ -72,7 +72,7 @@ jobs:
         echo Add other tasks to build, test, and deploy your project.
         echo See https://aka.ms/yaml
       displayName: 'Run a multi-line script'
-  - job: 6
+  - job: f
     displayName: 6
     pool:
       vmImage: 'ubuntu-latest'
@@ -85,7 +85,7 @@ jobs:
         echo See https://aka.ms/yaml
       displayName: 'Run a multi-line script'
 
-  - job: 7
+  - job: g
     displayName: 7
     pool:
       vmImage: 'ubuntu-latest'
@@ -97,7 +97,7 @@ jobs:
         echo Add other tasks to build, test, and deploy your project.
         echo See https://aka.ms/yaml
       displayName: 'Run a multi-line script'
-  - job: 8
+  - job: h
     displayName: 8
     pool:
       vmImage: 'ubuntu-latest'
@@ -110,7 +110,7 @@ jobs:
         echo See https://aka.ms/yaml
       displayName: 'Run a multi-line script'
 
-  - job: 9
+  - job: i
     displayName: 9
     pool:
       vmImage: 'ubuntu-latest'
@@ -122,7 +122,7 @@ jobs:
         echo Add other tasks to build, test, and deploy your project.
         echo See https://aka.ms/yaml
       displayName: 'Run a multi-line script'
-  - job: 10
+  - job: j
     displayName: 10
     pool:
       vmImage: 'ubuntu-latest'
@@ -135,7 +135,7 @@ jobs:
         echo See https://aka.ms/yaml
       displayName: 'Run a multi-line script'
 
-  - job: 11
+  - job: k
     displayName: 11
     pool:
       vmImage: 'ubuntu-latest'
@@ -147,7 +147,7 @@ jobs:
         echo Add other tasks to build, test, and deploy your project.
         echo See https://aka.ms/yaml
       displayName: 'Run a multi-line script'
-  - job: 12
+  - job: l
     displayName: 12
     pool:
       vmImage: 'ubuntu-latest'
