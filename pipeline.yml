@@ -6,153 +6,153 @@
 trigger:
 - master
 
+jobs:
+  - job:
+    displayName: 1
+    pool:
+      vmImage: 'ubuntu-latest'
+    steps:
+    - script: echo Hello, world!
+      displayName: 'Run a one-line script'
 
-- job:
-  displayName: 1
-  pool:
-    vmImage: 'ubuntu-latest'
-  steps:
-  - script: echo Hello, world!
-    displayName: 'Run a one-line script'
+    - script: |
+        echo Add other tasks to build, test, and deploy your project.
+        echo See https://aka.ms/yaml
+      displayName: 'Run a multi-line script'
+  - job:
+    displayName: 2
+    pool:
+      vmImage: 'ubuntu-latest'
+    steps:
+    - script: echo Hello, world!
+      displayName: 'Run a one-line script'
 
-  - script: |
-      echo Add other tasks to build, test, and deploy your project.
-      echo See https://aka.ms/yaml
-    displayName: 'Run a multi-line script'
-- job:
-  displayName: 2
-  pool:
-    vmImage: 'ubuntu-latest'
-  steps:
-  - script: echo Hello, world!
-    displayName: 'Run a one-line script'
+    - script: |
+        echo Add other tasks to build, test, and deploy your project.
+        echo See https://aka.ms/yaml
+      displayName: 'Run a multi-line script'
 
-  - script: |
-      echo Add other tasks to build, test, and deploy your project.
-      echo See https://aka.ms/yaml
-    displayName: 'Run a multi-line script'
+  - job:
+    displayName: 3
+    pool:
+      vmImage: 'ubuntu-latest'
+    steps:
+    - script: echo Hello, world!
+      displayName: 'Run a one-line script'
 
-- job:
-  displayName: 3
-  pool:
-    vmImage: 'ubuntu-latest'
-  steps:
-  - script: echo Hello, world!
-    displayName: 'Run a one-line script'
+    - script: |
+        echo Add other tasks to build, test, and deploy your project.
+        echo See https://aka.ms/yaml
+      displayName: 'Run a multi-line script'
+  - job:
+    displayName: 4
+    pool:
+      vmImage: 'ubuntu-latest'
+    steps:
+    - script: echo Hello, world!
+      displayName: 'Run a one-line script'
 
-  - script: |
-      echo Add other tasks to build, test, and deploy your project.
-      echo See https://aka.ms/yaml
-    displayName: 'Run a multi-line script'
-- job:
-  displayName: 4
-  pool:
-    vmImage: 'ubuntu-latest'
-  steps:
-  - script: echo Hello, world!
-    displayName: 'Run a one-line script'
+    - script: |
+        echo Add other tasks to build, test, and deploy your project.
+        echo See https://aka.ms/yaml
+      displayName: 'Run a multi-line script'
 
-  - script: |
-      echo Add other tasks to build, test, and deploy your project.
-      echo See https://aka.ms/yaml
-    displayName: 'Run a multi-line script'
-    
-- job:
-  displayName: 5
-  pool:
-    vmImage: 'ubuntu-latest'
-  steps:
-  - script: echo Hello, world!
-    displayName: 'Run a one-line script'
+  - job:
+    displayName: 5
+    pool:
+      vmImage: 'ubuntu-latest'
+    steps:
+    - script: echo Hello, world!
+      displayName: 'Run a one-line script'
 
-  - script: |
-      echo Add other tasks to build, test, and deploy your project.
-      echo See https://aka.ms/yaml
-    displayName: 'Run a multi-line script'
-- job:
-  displayName: 6
-  pool:
-    vmImage: 'ubuntu-latest'
-  steps:
-  - script: echo Hello, world!
-    displayName: 'Run a one-line script'
+    - script: |
+        echo Add other tasks to build, test, and deploy your project.
+        echo See https://aka.ms/yaml
+      displayName: 'Run a multi-line script'
+  - job:
+    displayName: 6
+    pool:
+      vmImage: 'ubuntu-latest'
+    steps:
+    - script: echo Hello, world!
+      displayName: 'Run a one-line script'
 
-  - script: |
-      echo Add other tasks to build, test, and deploy your project.
-      echo See https://aka.ms/yaml
-    displayName: 'Run a multi-line script'
-    
-- job:
-  displayName: 7
-  pool:
-    vmImage: 'ubuntu-latest'
-  steps:
-  - script: echo Hello, world!
-    displayName: 'Run a one-line script'
+    - script: |
+        echo Add other tasks to build, test, and deploy your project.
+        echo See https://aka.ms/yaml
+      displayName: 'Run a multi-line script'
 
-  - script: |
-      echo Add other tasks to build, test, and deploy your project.
-      echo See https://aka.ms/yaml
-    displayName: 'Run a multi-line script'
-- job:
-  displayName: 8
-  pool:
-    vmImage: 'ubuntu-latest'
-  steps:
-  - script: echo Hello, world!
-    displayName: 'Run a one-line script'
+  - job:
+    displayName: 7
+    pool:
+      vmImage: 'ubuntu-latest'
+    steps:
+    - script: echo Hello, world!
+      displayName: 'Run a one-line script'
 
-  - script: |
-      echo Add other tasks to build, test, and deploy your project.
-      echo See https://aka.ms/yaml
-    displayName: 'Run a multi-line script'
+    - script: |
+        echo Add other tasks to build, test, and deploy your project.
+        echo See https://aka.ms/yaml
+      displayName: 'Run a multi-line script'
+  - job:
+    displayName: 8
+    pool:
+      vmImage: 'ubuntu-latest'
+    steps:
+    - script: echo Hello, world!
+      displayName: 'Run a one-line script'
 
-- job:
-  displayName: 9
-  pool:
-    vmImage: 'ubuntu-latest'
-  steps:
-  - script: echo Hello, world!
-    displayName: 'Run a one-line script'
+    - script: |
+        echo Add other tasks to build, test, and deploy your project.
+        echo See https://aka.ms/yaml
+      displayName: 'Run a multi-line script'
 
-  - script: |
-      echo Add other tasks to build, test, and deploy your project.
-      echo See https://aka.ms/yaml
-    displayName: 'Run a multi-line script'
-- job:
-  displayName: 10
-  pool:
-    vmImage: 'ubuntu-latest'
-  steps:
-  - script: echo Hello, world!
-    displayName: 'Run a one-line script'
+  - job:
+    displayName: 9
+    pool:
+      vmImage: 'ubuntu-latest'
+    steps:
+    - script: echo Hello, world!
+      displayName: 'Run a one-line script'
 
-  - script: |
-      echo Add other tasks to build, test, and deploy your project.
-      echo See https://aka.ms/yaml
-    displayName: 'Run a multi-line script'
-    
-- job:
-  displayName: 11
-  pool:
-    vmImage: 'ubuntu-latest'
-  steps:
-  - script: echo Hello, world!
-    displayName: 'Run a one-line script'
+    - script: |
+        echo Add other tasks to build, test, and deploy your project.
+        echo See https://aka.ms/yaml
+      displayName: 'Run a multi-line script'
+  - job:
+    displayName: 10
+    pool:
+      vmImage: 'ubuntu-latest'
+    steps:
+    - script: echo Hello, world!
+      displayName: 'Run a one-line script'
 
-  - script: |
-      echo Add other tasks to build, test, and deploy your project.
-      echo See https://aka.ms/yaml
-    displayName: 'Run a multi-line script'
-- job:
-  displayName: 12
-  pool:
-    vmImage: 'ubuntu-latest'
-  steps:
-  - script: echo Hello, world!
-    displayName: 'Run a one-line script'
+    - script: |
+        echo Add other tasks to build, test, and deploy your project.
+        echo See https://aka.ms/yaml
+      displayName: 'Run a multi-line script'
 
-  - script: |
-      echo Add other tasks to build, test, and deploy your project.
-      echo See https://aka.ms/yaml
-    displayName: 'Run a multi-line script'
+  - job:
+    displayName: 11
+    pool:
+      vmImage: 'ubuntu-latest'
+    steps:
+    - script: echo Hello, world!
+      displayName: 'Run a one-line script'
+
+    - script: |
+        echo Add other tasks to build, test, and deploy your project.
+        echo See https://aka.ms/yaml
+      displayName: 'Run a multi-line script'
+  - job:
+    displayName: 12
+    pool:
+      vmImage: 'ubuntu-latest'
+    steps:
+    - script: echo Hello, world!
+      displayName: 'Run a one-line script'
+
+    - script: |
+        echo Add other tasks to build, test, and deploy your project.
+        echo See https://aka.ms/yaml
+      displayName: 'Run a multi-line script'
